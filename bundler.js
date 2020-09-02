@@ -85,7 +85,7 @@ const generateCode = (entry) => {
 const code = generateCode('./src/index.js');
 console.log(code);
 
-runPackedCode()
+// runPackedCode()
 
 function runPackedCode() {
 // 下面是webpack打包后的代码复制过来的，方便调试

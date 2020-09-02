@@ -4,7 +4,8 @@
   "description": "",
   "main": "bundler.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bundler.js | highlight"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +15,8 @@
     "@babel/parser": "^7.11.5",
     "@babel/preset-env": "^7.11.5",
     "@babel/traverse": "^7.11.5"
+  },
+  "devDependencies": {
+    "cli-highlight": "^2.1.4"
   }
 }
