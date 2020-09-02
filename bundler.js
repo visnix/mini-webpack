@@ -1,3 +1,4 @@
+// 慕课网webpack4.0课程的迷你webpack的实现源码，课程地址 https://coding.imooc.com/class/chapter/316.html#Anchor
 // 像这种复杂的项目，老师建议我们读3到5遍，然后自己能完整的写错了，哎，我以前做的最少的就是这种事情了，有价值的东西没有反复去看
 
 
