@@ -5,7 +5,8 @@
   "main": "bundler.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node bundler.js | highlight"
+    "start": "npm run build && node dist/index.js",
+    "build": "node bundler.js | highlight"
   },
   "keywords": [],
   "author": "",
